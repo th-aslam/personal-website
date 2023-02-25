@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-layout {
+  display: grid;
+  grid-template-rows: auto 4fr 1fr;
+  height: 80vh;
+}
+
+.nav-layout {
+  width: 85%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 5em;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.nav-layout > ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-grow: 6;
+  flex-basis: 0;
+}
+
+.nav-layout > ul > li {
+  margin-left: 3em;
+}
+
+.nav-layout > ul > li:first-child {
+  margin-left: 0;
+}
+
+.social-icons {
+  align-self: center;
+  flex-basis: 0;
+  flex-grow: 0;
+}
+.social-icons > span {
+  margin-left: 1em;
+}
+
+.social-icons > span:first-child {
+  margin-left: 0;
+}
+
+.header-style {
+  background-color: #080808;
+  color: aliceblue;
+}
+
+.nav-style {
+  background-color: #1b1b1b;
+  margin: 0 auto;
+}
+
+/* Nav bar ends here*/
+
+.personal-section {
+  width: 75%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-section > article {
+  flex-basis: auto;
+  flex-grow: 1;
+  width: min-content;
+}
+
+.personal-section > article:first-child{
+  flex-grow: 2;
+}
+
+.personal-section > article > h1  {
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+.header-pic {
+  border-radius: 50%;
+  float: right;
+}
