@@ -36,10 +36,10 @@ export default function Home() {
           <article>
             <h1>I am Tamoor Haider Aslam</h1>
             <p>A passionate & energetic JavaScript developer with experience to handle all the aspects of modern web application development including the backends, databases, cloud deployments (DevOps) and frontend apps. I am eager to learn & adapt to different tech stacks rapidly, thus making myself a flexible, convenient & valuable resource for the organization</p>
-            <a href="#">CONTACT ME </a>
-            <a href="#">DOWNLOAD CV </a>
+            <a href="#" className="contact-button">Contact Me </a>
+            <a href="#"  className="download-button">Download CV </a>
           </article>
-          <article>
+          
             <Image
               src="/images/taimoor portrait picture.jpg"
               alt="Vercel Logo"
@@ -48,7 +48,7 @@ export default function Home() {
               height={306}
               priority
             />
-          </article>
+          
         </section>
         <section>Client logos
 
