@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Raleway&display=swap" rel="stylesheet"></link>
-        
+
 
       </Head>
       <header className="header-layout header-style">
@@ -36,39 +36,107 @@ export default function Home() {
           <article>
             <h1>I am Tamoor Haider Aslam</h1>
             <p>A passionate & energetic JavaScript developer with experience to handle all the aspects of modern web application development including the backends, databases, cloud deployments (DevOps) and frontend apps. I am eager to learn & adapt to different tech stacks rapidly, thus making myself a flexible, convenient & valuable resource for the organization</p>
-            <a href="#" className="contact-button">Contact Me </a>
-            <a href="#"  className="download-button">Download CV </a>
+            <a href="#" className="green-button">Contact Me </a>
+            <a href="#" className="orange-button">Download CV </a>
           </article>
-          
-            <Image
-              src="/images/taimoor portrait picture.jpg"
-              alt="Vercel Logo"
-              className="header-pic"
-              width={306}
-              height={306}
-              priority
-            />
-          
+
+          <Image
+            src="/images/taimoor portrait picture.jpg"
+            alt=""
+            className="header-pic"
+            width={350}
+            height={350}
+            priority
+          />
+
         </section>
-        <section>Client logos
+        <section className="clientele-section">
 
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <h3>My Clients </h3>
+          <section className="clients-logo">
 
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            <a
+              href="https://www.naturesboardroom.ca/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/images/clients/transparent-NB.png"
+                alt="Natures Boardroom Canada Logo"
+                className={styles.vercelLogo}
+                width={100}
+                height={100}
+                priority
+              />
+            </a>
+
+
+            <a
+              href="https://zeitundzutritt.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/images/clients/transparent-zeit.png"
+                alt="Zeit Und Zutritt Germany Logo"
+                className={styles.vercelLogo}
+                width={100}
+                height={100}
+                priority
+              />
+            </a>
+
+
+            <a
+              href="https://wurkr.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/images/clients/transparent-wurkr.png"
+                alt="Wurkr Dot IO UK Logo"
+                className={styles.vercelLogo}
+                width={100}
+                height={100}
+                priority
+              />
+            </a>
+
+            <a
+              href="https://www.spacially.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/images/clients/transparent-spacially.png"
+                alt="Spacially Dot IO Logo Canada"
+                className={styles.vercelLogo}
+                width={100}
+                height={100}
+                priority
+              />
+            </a>
+
+            <a
+              href="https://www.fibster.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/images/clients/transparent-fibster.png"
+                alt="Fibster Dot IO Logo UK"
+                className={styles.vercelLogo}
+                width={100}
+                height={100}
+                priority
+              />
+            </a>
+
+          </section>
+
         </section>
       </header>
+      <a target="_blank" href="https://icons8.com/icon/102748/linkedin-2">LinkedIn 2</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
       {/* <main className={styles.main}>
         <div className={styles.description}>
           <p>
